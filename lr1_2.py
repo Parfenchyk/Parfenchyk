@@ -12,7 +12,7 @@ arrayNew.append(0)
 print('начальная последовательность: ' + str(arrayNew))
 
 count = 0
-for i in range(len(array) - 1):
+for i in range(len(arrayNew) - 2):
     if (arrayNew[i] > 0 and arrayNew[i + 1] > 0) or (arrayNew[i] < 0 and arrayNew[i + 1] < 0):
         continue
     else:
